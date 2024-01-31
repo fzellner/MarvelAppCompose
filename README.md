@@ -41,17 +41,17 @@ This app is built using:
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/fzellner/MarvelAppCompose/blob/main/screenshots/Screenshot_1706730627.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/fzellner/MarvelAppCompose/blob/main/screenshots/Screenshot_1706730619.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/fzellner/MarvelAppCompose/blob/main/screenshots/Screenshot_1706730623.png)
 
 
 
 ## Refers
 
-For the design purpose, this project took as a base inspiration the design showed at
+For the design purpose, this project took as a base inspiration the design shown at
  - [Marvel-Heroes](https://www.figma.com/file/lttk1Jw9X33jv3CNQwa4Hd/Marvel-Heroes-(Community)?type=design&node-id=218-4647&mode=design&t=kOJlcsDnKgTBfwBY-0) by [umpontoseis](https://www.figma.com/exit?url=https%3A%2F%2Fumpontoseis.com)
 
 
