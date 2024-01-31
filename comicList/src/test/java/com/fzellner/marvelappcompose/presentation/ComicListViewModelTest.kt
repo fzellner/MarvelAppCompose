@@ -4,7 +4,7 @@ import app.cash.turbine.test
 import com.fzellner.marvelappcompose.ComicListEntityFactory
 import com.fzellner.marvelappcompose.domain.model.ComicListEntity
 import com.fzellner.marvelappcompose.domain.usecase.GetComicListUseCase
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import com.fzellner.marvelappcompose.presentation.mapper.ComicListEntityToUiModelMapper
 import com.fzellner.marvelappcompose.presentation.model.ComicUiModel
 import com.fzellner.marvelappcompose.presentation.state.ComicListViewState

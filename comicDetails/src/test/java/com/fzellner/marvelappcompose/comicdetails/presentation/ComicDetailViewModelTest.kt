@@ -7,15 +7,13 @@ import com.fzellner.marvelappcompose.comicdetails.domain.usecase.GetComicDetailU
 import com.fzellner.marvelappcompose.comicdetails.presentation.mapper.ComicDetailEntityToUiModelMapper
 import com.fzellner.marvelappcompose.comicdetails.presentation.model.ComicDetailUiModel
 import com.fzellner.marvelappcompose.comicdetails.presentation.state.ComicDetailViewState
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.test.runBlockingTest
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
 import org.junit.Assert.*

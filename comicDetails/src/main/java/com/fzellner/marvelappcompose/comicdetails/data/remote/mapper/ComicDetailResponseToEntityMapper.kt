@@ -2,7 +2,7 @@ package com.fzellner.marvelappcompose.comicdetails.data.remote.mapper
 
 import com.fzellner.marvelappcompose.comicdetails.data.remote.model.ComicDetailResponse
 import com.fzellner.marvelappcompose.comicdetails.domain.model.ComicDetailEntity
-import com.fzellner.marvelappcompose.network.utils.Mapper
+import com.fzellner.marvelappcompose.utils.Mapper
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

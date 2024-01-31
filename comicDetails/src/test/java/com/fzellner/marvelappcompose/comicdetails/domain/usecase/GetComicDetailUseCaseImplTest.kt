@@ -2,12 +2,11 @@ package com.fzellner.marvelappcompose.comicdetails.domain.usecase
 
 import com.fzellner.marvelappcompose.comicdetails.ComicDetailEntityFactory
 import com.fzellner.marvelappcompose.comicdetails.domain.repository.ComicDetailRepository
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Test

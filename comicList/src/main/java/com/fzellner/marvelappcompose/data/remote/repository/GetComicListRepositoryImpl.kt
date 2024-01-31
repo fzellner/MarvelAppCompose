@@ -4,7 +4,7 @@ import com.fzellner.marvelappcompose.data.api.ComicListApi
 import com.fzellner.marvelappcompose.data.remote.mapper.ComicListResponseToEntityMapper
 import com.fzellner.marvelappcompose.domain.model.ComicListEntity
 import com.fzellner.marvelappcompose.domain.repository.GetComicListRepository
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

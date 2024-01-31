@@ -6,12 +6,11 @@ import androidx.lifecycle.viewModelScope
 import com.fzellner.marvelappcompose.comicdetails.domain.usecase.GetComicDetailUseCase
 import com.fzellner.marvelappcompose.comicdetails.presentation.mapper.ComicDetailEntityToUiModelMapper
 import com.fzellner.marvelappcompose.comicdetails.presentation.state.ComicDetailViewState
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
-import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

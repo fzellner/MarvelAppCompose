@@ -1,7 +1,7 @@
 package com.fzellner.marvelappcompose.domain.repository
 
 import com.fzellner.marvelappcompose.domain.model.ComicListEntity
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import kotlinx.coroutines.flow.Flow
 
 interface GetComicListRepository {

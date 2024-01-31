@@ -7,7 +7,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.fzellner.marvelappcompose.domain.usecase.GetComicListUseCase
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import com.fzellner.marvelappcompose.presentation.mapper.ComicListEntityToUiModelMapper
 import com.fzellner.marvelappcompose.presentation.model.ComicUiModel
 import com.fzellner.marvelappcompose.presentation.state.ComicListViewState

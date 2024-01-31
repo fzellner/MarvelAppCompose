@@ -4,7 +4,7 @@ import com.fzellner.marvelappcompose.ComicListEntityFactory
 import com.fzellner.marvelappcompose.ComicListResponseFactory
 import com.fzellner.marvelappcompose.data.api.ComicListApi
 import com.fzellner.marvelappcompose.data.remote.mapper.ComicListResponseToEntityMapper
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import io.mockk.coEvery
 import io.mockk.every
 import io.mockk.mockk

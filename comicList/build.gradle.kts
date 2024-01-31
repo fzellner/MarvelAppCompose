@@ -50,8 +50,6 @@ kapt {
 }
 
 dependencies {
-    implementation(project(":common"))
-    implementation(project(":designtoken"))
     implementation(libs.androidx.ktx)
     implementation(libs.bundles.network)
     implementation(libs.bundles.core)
@@ -60,6 +58,8 @@ dependencies {
     implementation(platform(libs.compose.bom))
     implementation(libs.bundles.compose)
     testImplementation(libs.bundles.testing)
+    implementation(project(":common"))
+    implementation(project(":designtoken"))
     testImplementation(project(":common"))
     kapt(libs.hiltkapt)
 }

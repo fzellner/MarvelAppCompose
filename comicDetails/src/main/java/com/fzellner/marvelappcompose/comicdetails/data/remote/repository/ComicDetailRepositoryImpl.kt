@@ -4,7 +4,7 @@ import com.fzellner.marvelappcompose.comicdetails.data.api.ComicDetailApi
 import com.fzellner.marvelappcompose.comicdetails.data.remote.mapper.ComicDetailResponseToEntityMapper
 import com.fzellner.marvelappcompose.comicdetails.domain.model.ComicDetailEntity
 import com.fzellner.marvelappcompose.comicdetails.domain.repository.ComicDetailRepository
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import javax.inject.Inject

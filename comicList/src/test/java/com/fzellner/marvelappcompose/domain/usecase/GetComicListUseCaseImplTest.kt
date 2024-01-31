@@ -2,7 +2,7 @@ package com.fzellner.marvelappcompose.domain.usecase
 
 import com.fzellner.marvelappcompose.ComicListEntityFactory
 import com.fzellner.marvelappcompose.domain.repository.GetComicListRepository
-import com.fzellner.marvelappcompose.network.utils.ResultWrapper
+import com.fzellner.marvelappcompose.network.model.ResultWrapper
 import io.mockk.coEvery
 import io.mockk.coVerify
 import io.mockk.mockk

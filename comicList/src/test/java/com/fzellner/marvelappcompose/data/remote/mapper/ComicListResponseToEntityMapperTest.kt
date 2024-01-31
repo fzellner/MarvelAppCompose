@@ -5,7 +5,6 @@ import com.fzellner.marvelappcompose.data.remote.model.ComicListResponse
 import com.fzellner.marvelappcompose.data.remote.model.ComicThumbnailResponse
 import com.fzellner.marvelappcompose.domain.model.ComicEntity
 import com.fzellner.marvelappcompose.domain.model.ComicListEntity
-import com.fzellner.marvelappcompose.network.utils.Mapper
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Assert.assertEquals
