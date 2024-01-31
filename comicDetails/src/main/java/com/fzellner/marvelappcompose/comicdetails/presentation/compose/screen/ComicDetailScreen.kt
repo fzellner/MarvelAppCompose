@@ -1,6 +1,5 @@
 package com.fzellner.marvelappcompose.comicdetails.presentation.compose.screen
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -16,14 +15,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.drawWithCache
 import androidx.compose.ui.graphics.BlendMode
 import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalConfiguration
-import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.constraintlayout.compose.ConstraintLayout
@@ -34,7 +28,6 @@ import com.fzellner.marvelappcompose.comicdetails.presentation.ComicDetailViewMo
 import com.fzellner.marvelappcompose.comicdetails.presentation.model.ComicDetailUiModel
 import com.fzellner.marvelappcompose.comicdetails.presentation.state.ComicDetailViewState
 import com.fzellner.marvelappcompose.designtoken.MarvelAppTheme
-import com.fzellner.marvelappcompose.designtoken.R
 import com.fzellner.marvelappcompose.designtoken.colors.MarvelAppColor
 import com.fzellner.marvelappcompose.designtoken.colors.MarvelAppGradients
 import com.fzellner.marvelappcompose.designtoken.components.GradientPriceIndicatorComponent
@@ -83,8 +76,6 @@ private fun ShowComicDetails(
     paddingValues: PaddingValues,
     comicDetailUiModel: ComicDetailUiModel
 ) {
-    val screenHeight = LocalConfiguration.current.screenHeightDp
-
     ConstraintLayout(
         modifier = Modifier
             .fillMaxSize()
